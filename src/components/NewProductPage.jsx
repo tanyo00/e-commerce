@@ -17,7 +17,7 @@ export default function NewProductPage() {
     e.preventDefault();
     let item = new Product(name, price, image);
     let arrData = [];
-    JSON.parse(localStorage.getItem("data")).map((item, index) => {
+    JSON.parse(localStorage.getItem("data")).map((item) => {
       arrData.push(item);
     });
     arrData.push(item);

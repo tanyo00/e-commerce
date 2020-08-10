@@ -3,7 +3,7 @@ import React from "react";
 export default function Order() {
   const products = JSON.parse(localStorage.getItem("items"));
   let totalPrice = 0;
-  products.map((item, index) => {
+  products.map((item) => {
     totalPrice += item.items[0].price;
   });
   return (
