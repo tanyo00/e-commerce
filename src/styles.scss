@@ -1,0 +1,415 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 1920px;
+  height: 111px;
+  left: 0px;
+  top: -1px;
+
+  .rectangle {
+    position: absolute;
+    width: 1920px;
+    height: 108px;
+    left: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+
+    .link {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 140px;
+      height: 108px;
+      left: 1292px;
+      top: 1px;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 23px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #6f6f6f;
+      cursor: pointer;
+    }
+
+    .logo-area {
+      position: absolute;
+      width: 353px;
+      height: 83px;
+      left: 14px;
+      top: 14px;
+
+      .cart-image {
+        position: absolute;
+        width: 82px;
+        height: 70px;
+        top: 5px;
+        background: url("./assets/online-shop-logo-design-logo-design-ideas-online-shopping-logo-png-450_387\ 1.png");
+      }
+
+      .logo {
+        position: absolute;
+        width: 232px;
+        height: 83px;
+        left: 120px;
+        font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ed1c24;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+      }
+    }
+  }
+}
+
+#active {
+  background: #ed1c24;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  width: 140px;
+  height: 108px;
+  left: 1292px;
+  top: 1px;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.add-product-title {
+  position: absolute;
+  width: 1745px;
+  height: 89px;
+  left: 87px;
+  top: 156px;
+  background: #ed1c24;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  .text {
+    left: 48px;
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+.product-name {
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 1343px;
+  height: 104px;
+  left: 89px;
+  top: 300px;
+  background: #f8f8f8;
+  border: 1px solid #6f6f6f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c4c4c4;
+
+  &::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #c4c4c4;
+  }
+}
+
+.price {
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 383px;
+  height: 104px;
+  left: 1449px;
+  top: 300px;
+  background: #f8f8f8;
+  border: 1px solid #6f6f6f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c4c4c4;
+
+  &::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #c4c4c4;
+  }
+}
+
+.image {
+  position: absolute;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1743px;
+  height: 104px;
+  left: 89px;
+  top: 449px;
+  background: #f8f8f8;
+  border: 1px solid #6f6f6f;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #c4c4c4;
+
+  &::placeholder {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #c4c4c4;
+  }
+}
+
+.save {
+  position: absolute;
+  width: 280px;
+  height: 89px;
+  left: 1552px;
+  top: 598px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  background: #ed1c24;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+}
+
+.container {
+  width: 1920px;
+  height: 1080px;
+  background: #f2f2f2;
+}
+
+.container-cards {
+  width: 1780px;
+
+  height: 100%;
+  margin-left: 69px;
+  margin-top: 188px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 128px;
+  row-gap: 95px;
+}
+
+.card-outer {
+  width: 348px;
+  height: 461px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .container-image {
+    width: 348px;
+    height: 354px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .container-text {
+    width: 350px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .text {
+      background: #e2e2e2;
+      width: 239px;
+      height: 109px;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 27px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+      p {
+        padding: 22px;
+        width: 239px;
+        height: 109px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .icon {
+      border: none;
+      width: 109px;
+      height: 109px;
+      background: #ed1c24;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+      cursor: pointer;
+    }
+  }
+}
+
+.cart-container {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  left: 1832px;
+  top: 28px;
+
+  .ball {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #ed1c24;
+    margin: -24px;
+    margin-left: 40px;
+
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+  }
+}
+
+.container-order {
+  width: 1745px;
+  height: 177px;
+  margin-top: 274px;
+  margin-left: 87px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  .id {
+    box-sizing: border-box;
+    width: 242px;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    border: 3px solid #c4c4c4;
+  }
+  .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    width: 894px;
+    height: 177px;
+    box-sizing: border-box;
+    border-top: 3px solid #c4c4c4;
+    border-bottom: 3px solid #c4c4c4;
+  }
+  .total {
+    border: 3px solid #c4c4c4;
+    width: 242px;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .payment {
+    width: 374px;
+    height: 177px;
+    border-top: 3px solid #c4c4c4;
+    border-bottom: 3px solid #c4c4c4;
+    border-right: 3px solid #c4c4c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
